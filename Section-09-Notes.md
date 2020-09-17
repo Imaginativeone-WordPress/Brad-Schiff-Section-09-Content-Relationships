@@ -34,4 +34,23 @@
       - Mistakes I've Made: I didn't select Filter by Post Type: "Program"
     - How do I use that custom field (relationship) value on the front end of the web site?
   - [ ] 38. Displaying Relationships (Front-End) 20min
+  
+    **Event Side**
+    ```php
+    echo "<hr class='section-break'>";
+    echo "<h2 class='headline headline--medium'>Related Program(s)</h2>";
+    echo "<ul class='link-list min-list'>";
+
+    foreach($relatedPrograms as $program) { ?>
+
+      <li><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
+
+      <?php
+    }
+
+    echo "</ul>";
+    ```
+    
+    **Program Side**
+    A
   - [ ] 39. Quick Program Edits 9min
