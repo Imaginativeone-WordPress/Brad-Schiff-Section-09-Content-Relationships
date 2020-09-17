@@ -12,6 +12,10 @@
       $query->set('order',    'ASC');
     }
     ```
-    
+    - Create a relationship between the Biology Program and the Event "The Science of Cats"
+    - Need a custom (relationship) field
+    - WP Admin > Custom Fields
+      - Add a New Field Group
+        - "Related Programs"
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
