@@ -31,5 +31,7 @@
     - Publish
     - Verify Relationship
       - "The Science of Cats" Event
+      - Mistakes I've Made: I didn't select Filter by Post Type: "Program"
+    - How do I use that custom field (relationship) value on the front end of the web site?
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
