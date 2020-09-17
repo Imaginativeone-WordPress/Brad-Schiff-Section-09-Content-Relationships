@@ -27,6 +27,7 @@
             - Filters: Yes-Search, No-Post Type, No-Taxonomy
           - Location (Section)
             - Show this field group if:
-              - Post Type [is equal to] Event
+              - Post Type [is equal to] "Event"
+    - Publish
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
