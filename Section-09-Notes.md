@@ -22,12 +22,14 @@
           - Field Type: Relational > Relationship
             - Instructions: blank
             - Required: No
-            - Filter by Post Type: Program (Posts)
+            - Filter by Post Type: Program (Posts)(Very Important)
             - Filter by Taxonomy: No change (All Taxonomies)
             - Filters: Yes-Search, No-Post Type, No-Taxonomy
           - Location (Section)
             - Show this field group if:
               - Post Type [is equal to] "Event"
     - Publish
+    - Verify Relationship
+      - "The Science of Cats" Event
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
