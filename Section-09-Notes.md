@@ -1,4 +1,7 @@
 - [ ] Section 9: Programs Post Type 3/3 | 47min
   - [ ] 37. Creating Relationships Between Content 19min
+    - Create "Program" Post Type
+    - single-program.php
+    - archive-program.php
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
