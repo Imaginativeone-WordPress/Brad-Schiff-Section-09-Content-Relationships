@@ -16,6 +16,17 @@
     - Need a custom (relationship) field
     - WP Admin > Custom Fields
       - Add a New Field Group
-        - "Related Programs"
+        - "Related Program"
+          - Field Label: Related Program(s)
+          - Field Name: related_programs
+          - Field Type: Relational > Relationship
+            - Instructions: blank
+            - Required: No
+            - Filter by Post Type: Program (Posts)
+            - Filter by Taxonomy: No change (All Taxonomies)
+            - Filters: Yes-Search, No-Post Type, No-Taxonomy
+          - Location (Section)
+            - Show this field group if:
+              - Post Type [is equal to] Event
   - [ ] 38. Displaying Relationships (Front-End) 20min
   - [ ] 39. Quick Program Edits 9min
